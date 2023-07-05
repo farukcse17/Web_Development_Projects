@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+
+}
+.box-model{
+    max-width: 80%;
+    /* background-color: lightgreen; */
+}
+.box-model-title{
+    background-color: orange;
+}
+.margin, .border, .padding{padding: 20px; padding-top: 5px; font-weight: bold;}
+.margin{
+    /* margin: 20px; */
+    background-color: lightblue;
+    text-align: center;
+}
+.border{
+    background-color: red;
+}
+.padding{
+    background-color: green;
+}
+.content{
+    background-color: gray;
+    padding: 20px;
+    font-weight: normal;
+}
+/* End box model */ 
+.box{
+    border: 5px solid rgba(0, 140, 255, 0.63);
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    box-shadow: 3px 10px 20px lightseagreen;
+    border-radius: 12px;
+    min-height: 200px;
+}
+
+.box h3{
+    border-bottom: 3px dotted lightgreen;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+

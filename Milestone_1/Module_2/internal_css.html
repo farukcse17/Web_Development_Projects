@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS Style</title>
+    <style>
+        h3{color:red; text-transform:capitalize; font-size: 24px;}
+        p{
+            color: green;
+            font-weight: bold;
+        }
+        ol{
+            list-style-type: none;
+        }
+        /* ol li{
+            display: inline-block;
+            height: 30px;
+            background-color: gray;
+            width: 80px;
+            text-align: center;
+            
+        } */
+        .box-style{
+            background-color: lightgray;
+            max-width: 80%;
+            padding: 0px;
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-bottom: 20px;
+            padding: 20px 0px 20px 20px;
+            line-height: 30px;
+        }
+        .box-style li{
+            background-color: bisque;
+            width: 80%;
+            margin-bottom:3px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Internal CSS Style</h3>
+    <p>
+        I have created Internal CSS Style here.
+    </p>
+
+
+    <div>
+        <h3>Box Internal CSS Heading</h3>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam ipsum provident nulla quae accusantium a ducimus, debitis, atque eos totam obcaecati quas optio. Totam, veritatis expedita voluptatibus delectus accusamus doloremque.
+        </p>
+    </div>
+    <h3>CSS Box Model</h3>
+    <ol type="i" class="box-style">
+        <li>Content</li>
+        <li>Padding</li>
+        <li>Border</li>
+        <li>margin</li>
+    </ol>
+
+    
+</body>
+</html>
