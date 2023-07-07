@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-5 Tags</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        input{
+            margin-left: 0px;
+            padding: 5px;
+        }
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        fieldset{
+            padding-left: 20px;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+<!-- Header section -->
+    <header class="header-section">
+        <nav>
+            <ul class="header-nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="html5-tags.html">HTML Tags</a></li>
+                <li><a href="html-table.html">Table</a></li>
+                <li><a href="html-megamenu.html">Mega Menu</a></li>
+                <li><a href="html-form.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- Main Section -->
+    <main>
+        <div class="form-container" style="padding: 20px;">
+            <h1>Fill up the form</h1>
+            <form action="">
+                <label for="name">Your Name: 
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </label>
+                <label for="email">Your Email: 
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </label>
+                <label for="phone"> Your Phone: 
+                    <input type="text" name="phone"     id="phone" placeholder="Enter your phone number">
+                </label>
+                <label for="password">Password: 
+                    <input type="password" name="password" id="password" placeholder="Enter your password">
+                </label>
+                <fieldset>
+                    <legend>Pick One Pitha</legend>
+                    <label for="chitoy"> 
+                        <input type="radio" name="pitha" id="chitoy"> Chitoy 
+                        
+                    </label>
+                    <label for="vapa">
+                        <input type="radio" name="pitha" id="vapa"> Vapa 
+                    </label>
+                    <label for="puri">
+                        <input type="radio" name="pitha" id="puri"> Puri
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Pic One or More Vorta</legend>
+                    <label for="sorisa">
+                        <input type="checkbox" name="vorta" id="sorisa"> Sorisa
+                    </label> 
+                    <label for="sutki">
+                        <input type="checkbox" name="vorta" id="sutki"> Sutkhi
+                    </label> 
+                    <label for="roshun">
+                        <input type="checkbox" name="vorta" id="roshun"> Risun
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Special Instruction</legend>
+                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                </fieldset>
+                <label for="submit">
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                </label>
+            </form>
+        </div>
+        
+    </main>
+
+<!-- Footer Section -->
+    <footer class="footer-section">
+       <p> &copy; 2023. All right reserved!</p>
+    </footer>
+    
+</body>
+</html>

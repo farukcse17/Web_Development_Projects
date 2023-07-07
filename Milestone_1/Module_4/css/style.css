@@ -1,0 +1,83 @@
+/* *, *::before, *::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+} */
+
+/* .header-section{
+    padding: 20px 0px;
+    background-color: lightGray;
+
+} */
+nav > .header-nav-menu{
+    
+    display: flex;
+}
+.header-nav-menu > li {
+    
+    margin-right: 30px;
+    list-style-type: none;
+}
+.header-nav-menu li:hover {
+   background: yellow;
+   
+}
+.header-nav-menu  li a {
+   text-decoration: none;
+}
+/* Dropdown menu */
+.dropdown{
+    list-style: none;
+}
+.header-nav-menu  li .dropdown {
+    display: none;
+    position: absolute;
+    background-color: rgb(116, 246, 109);
+    color: white;
+}
+.header-nav-menu  li:hover > .dropdown {
+    display: block;
+    width: 100px;
+}
+/* 
+.header-nav-menu > li{
+    display: inline;
+    margin-right: 20px;
+    background: lightgreen;
+    padding: 10px 20px;
+    
+}
+.header-nav-menu li a{
+    text-decoration: none;
+    color: black;
+    
+} */
+/* Main section */
+.main-section{
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+}
+.main-section aside{
+    padding: 20px 80px;
+    width: 40%;
+    background-color: orange;
+}
+.nav-sidebar-menu> h3{
+    font-size: 20px;
+}
+.main-section article{
+    background-color: lightBlue;
+    padding: 10px;
+}
+/* Footer Section */
+.footer-section{
+    background-color: gray;
+    padding: 15px;
+}
+.footer-section p{
+    text-align: center;
+}
